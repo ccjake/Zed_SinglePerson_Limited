@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CodeLite_Workspace Name="ZED_Body_Tracking_Viewer">
-	<Project Name="ZED_Body_Tracking_Viewer" Path="ZED_Body_Tracking_Viewer.project" Active="No"/>
-	<BuildMatrix>
-		<WorkspaceConfiguration Name="Debug" Selected="yes">
-			<Project Name="ZED_Body_Tracking_Viewer" ConfigName="Debug"/>
-		</WorkspaceConfiguration>
-	</BuildMatrix>
-</CodeLite_Workspace>
