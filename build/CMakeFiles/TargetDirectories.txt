@@ -1,3 +1,0 @@
-/home/gemit/Dev/zed-sdk/bodytracking/bodytracking/cpp/build/CMakeFiles/rebuild_cache.dir
-/home/gemit/Dev/zed-sdk/bodytracking/bodytracking/cpp/build/CMakeFiles/edit_cache.dir
-/home/gemit/Dev/zed-sdk/bodytracking/bodytracking/cpp/build/CMakeFiles/ZED_Body_Tracking_Viewer.dir

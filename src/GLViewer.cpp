@@ -264,9 +264,18 @@ void GLViewer::updateData(Bodies &bodies, sl::Transform& pose) {
                 tracked_body_data = it;
             }
         }
+
+        /*std::cout << tracked_body_data.position.x << std::endl;
+        std::cout << tracked_body_data.position.z << std::endl;*/
+
+        //x,z range
+        //bool in_area = tracked_body_data.position.x <= 400 && tracked_body_data.position.x >= -400 && tracked_body_data.position.z >= -3200 && tracked_body_data.position.z <= -1800;
+        bool in_area = tracked_body_data.position.x * tracked_body_data.position.x + (tracked_body_data.position.z + 2300)*(tracked_body_data.position.z + 2300)<= 600*600;
+
+        //std::cout << in_area << std::endl;
         
         
-        if (renderObject(tracked_body_data, bodies.is_tracked)) {
+        if (renderObject(tracked_body_data, bodies.is_tracked) && in_area) {
             // draw skeletons
             auto clr_id = generateColorID(tracked_body_data.id);
             if (tracked_body_data.keypoint.size() == 18)
